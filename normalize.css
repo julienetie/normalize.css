@@ -1,4 +1,4 @@
-/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/*! scalable-normalize.css v0.01 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
@@ -11,8 +11,8 @@
 
 html {
   line-height: 1.15; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 1rem; /* 2 */
+  -webkit-text-size-adjust: 1rem; /* 2 */
 }
 
 /* Sections
@@ -40,13 +40,13 @@ section {
 }
 
 /**
- * Correct the font size and margin on `h1` elements within `section` and
+ * Correct the font size and margin on `h1` elrements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 2rem;
+  margin: 0.67rem 0;
 }
 
 /* Grouping content
@@ -61,14 +61,6 @@ figcaption,
 figure,
 main { /* 1 */
   display: block;
-}
-
-/**
- * Add the correct margin in IE 8.
- */
-
-figure {
-  margin: 1em 40px;
 }
 
 /**
@@ -89,7 +81,7 @@ hr {
 
 pre {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: 1rem; /* 2 */
 }
 
 /* Text-level semantics
@@ -136,14 +128,14 @@ strong {
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
+ * 2. Correct the odd `rem` font sizing in all browsers.
  */
 
 code,
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-size: 1rem; /* 2 */
 }
 
 /**
@@ -168,7 +160,7 @@ mark {
  */
 
 small {
-  font-size: 80%;
+  font-size: 0.8rem;
 }
 
 /**
@@ -178,18 +170,18 @@ small {
 
 sub,
 sup {
-  font-size: 75%;
+  font-size: 0.75rem;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -0.25rem;
 }
 
 sup {
-  top: -0.5em;
+  top: -0.5rem;
 }
 
 /* Embedded content
@@ -243,7 +235,7 @@ optgroup,
 select,
 textarea {
   font-family: sans-serif; /* 1 */
-  font-size: 100%; /* 1 */
+  font-size: 1rem; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
@@ -301,7 +293,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+  outline: 0.0625rem dotted ButtonText;
 }
 
 /**
@@ -309,7 +301,7 @@ button:-moz-focusring,
  */
 
 fieldset {
-  padding: 0.35em 0.75em 0.625em;
+  padding: 0.35rem 0.75rem 0.625rem;
 }
 
 /**
@@ -373,7 +365,7 @@ textarea {
 
 [type="search"] {
   -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  outline-offset: -0.125rem; /* 2 */
 }
 
 /**
