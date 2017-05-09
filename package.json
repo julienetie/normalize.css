@@ -1,24 +1,23 @@
 {
   "name": "normalize.css",
-  "version": "7.0.0",
-  "description": "A modern alternative to CSS resets",
-  "main": "normalize.css",
-  "style": "normalize.css",
+  "version": "0.0.2",
+  "description": "normalize.css modified for Scalable Desing",
+  "main": "scalable-normalize.css",
+  "style": "scalable-normalize.css",
   "files": [
     "LICENSE.md",
-    "normalize.css"
+    "scalable-normalize.css"
   ],
   "devDependencies": {
     "stylelint": "^7.9.0",
     "stylelint-config-standard": "^16.0.0"
   },
   "scripts": {
-    "test": "stylelint normalize.css"
+    "test": "stylelint scalable-normalize.css"
   },
-  "repository": "necolas/normalize.css",
+  "repository": "julienetie/scalable-normalize.css",
   "license": "MIT",
-  "bugs": "https://github.com/necolas/normalize.css/issues",
-  "homepage": "https://necolas.github.io/normalize.css",
+  "bugs": "https://github.com/julienetie/scalable-normalize.css/issues",
   "stylelint": {
     "extends": "stylelint-config-standard",
     "rules": {
