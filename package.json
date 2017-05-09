@@ -1,6 +1,6 @@
 {
   "name": "normalize.css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "normalize.css modified for Scalable Desing",
   "main": "scalable-normalize.css",
   "style": "scalable-normalize.css",

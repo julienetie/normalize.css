@@ -6,11 +6,6 @@
 
 > normalize.css for Scalable Design
 
-[![npm][npm-image]][npm-url] [![license][license-image]][license-url]
-[![changelog][changelog-image]][changelog-url]
-[![gitter][gitter-image]][gitter-url]
-
-
 **NPM**
 
 ```sh
